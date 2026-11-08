@@ -31,6 +31,7 @@ public class Main{
        else if((exams ==25 && assmnt==14) || (exams ==25 && assmnt==14)){
             System.out.println("You have been condoned");
             req1=1;
+            
             req2=1;
         }
        else if (exams ==39 && assmnt==0){
@@ -40,6 +41,7 @@ public class Main{
 
         if(exams + assmnt <= 38){
             System.out.println("You have failed");
+
         }
 
 
